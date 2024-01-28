@@ -1,0 +1,39 @@
+body {
+    background-color: azure;
+}
+
+ul > li {
+    background-color:antiquewhite;
+    text-align: center;
+    list-style-type: none;
+    font-family: sans-serif;
+    text-decoration: none;
+    text-decoration-line: none;
+    font-size: large;
+    margin: 1rem 5em;
+}
+
+ul > li:hover {
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:solid;
+}
+
+.page-title {
+    color:lightsalmon;
+    background-color:bisque;
+    text-align: center;
+    margin: auto 2em;
+}
